@@ -301,4 +301,14 @@ suite('Snippet Variables Resolver', function () {
 		snippet.resolveVariables({ resolve() { return '11'; } });
 		assert.equal(snippet.toString(), 'It is not line 10');
 	});
+
+	test('Add workspace name variable for snippets #68261', function () {
+		// no workspace
+
+		// empty workspace
+
+		// single folder workspace
+
+		// multiple folders workspace
+	});
 });
